@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/solid.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+// DataTables
+@import url('https://adminlte.io/themes/dev/AdminLTE/plugins/datatables/dataTables.bootstrap4.css');
+
+
+.router-link-exact-active{
+    background-color: #3490dc;
+    color:#fff !important;
+}
+.main-sidebar {
+    z-index: 1100;
+    height: 100vh;
+    overflow: hidden !important;
+}
+
+// IMAGE AVATAR PREVIEW
+.file-upload-form, .image-preview {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 20px;
+}
+img.preview {
+    width: 200px;
+    // padding: 5px;
+}
+
+
